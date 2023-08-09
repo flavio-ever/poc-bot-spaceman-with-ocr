@@ -1,0 +1,11 @@
+{
+  "extends": "standard-with-typescript", // importacao
+  "parserOptions": {
+    "project": "./tsconfig.json" // para usar as configuracoes do typescript
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off"
+  }
+}

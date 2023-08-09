@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // output do transpile
+    "module": "CommonJS", // nodes e browsers entendem
+    "target": "ES2022", // https://node.green/#ES2022
+    "esModuleInterop": true, // conversao dos modulos que usam o common js como require, module.export
+    "allowJs": true, // permita a leitura do arquivo .js também
+    "sourceMap": true, // Sourcemap são necessários para mapear o código TypeScript para o código JavaScript no depurador posteriormente.
+  }
+}
