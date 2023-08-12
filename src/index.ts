@@ -175,7 +175,6 @@ puppeteer
 
       await bot.launch()
     } catch (error) {
-      // Enable graceful stop
       process.once('SIGINT', () => {
         bot.stop('SIGINT')
       })
